@@ -3,8 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { BookIndex } from './pages/BookIndex'
+import { books } from './services/BookService';
+import { storageService } from './services/async-storage.service';
+
 
 function App() {
+
+
+
+if (!localStorage.getItem("books")) {
+  storageService.save("books", books)
+}
+
   return (
     <div>
       <BrowserRouter>
