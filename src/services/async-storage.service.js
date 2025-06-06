@@ -1,4 +1,4 @@
-import { books } from "./BookService"
+import { books } from "./booksData"
 
 export const storageService = {
     query,

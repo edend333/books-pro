@@ -1,0 +1,36 @@
+.app-header {
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.app-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.app-nav a:hover {
+  color: #60a5fa;
+}
+
+.app-nav .active {
+  border-bottom: 2px solid #60a5fa;
+  padding-bottom: 2px;
+}
