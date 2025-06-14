@@ -1,0 +1,66 @@
+.book-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2em;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 160px;
+  margin: 1em auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.book-preview:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.book-preview h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3em;
+  color: #222;
+  text-align: center;
+}
+
+.book-preview p {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.book-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: contain;
+  margin-bottom: 0.6em;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.4em;
+  flex-wrap: wrap;
+  margin-top: 0.3em;
+}
+
+.btn-group button,
+.btn-group a > button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #4a63f2;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-group button:hover,
+.btn-group a > button:hover {
+  background-color: #3946b6;
+}

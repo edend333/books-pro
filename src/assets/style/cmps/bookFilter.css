@@ -1,0 +1,26 @@
+
+.book-filter input[type="text"],
+.book-filter input[type="number"] {
+  padding: 0.4em 0.6em;
+  margin-inline-end: 0.5em;
+  margin-bottom: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  width: 140px;
+}
+
+
+.book-filter form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.book-filter label {
+  font-weight: 500;
+  margin-inline-end: 0.2em;
+  color: #333;
+}

@@ -1,7 +1,6 @@
 import { loadFromStorage, makeId, saveToStorage } from './util.service.js'
-import { storageService } from './async-storage.service.js'
-
-const BOOK_KEY = 'bookDB'
+import { storageService } from './async-storage.service'
+const BOOK_KEY = 'books'
 
 
 export const bookService = {

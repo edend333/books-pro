@@ -1,0 +1,105 @@
+.book-details {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  gap: 1.5em;
+}
+
+.book-details h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.book-details h4 {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+.book-details .content {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.book-details img {
+  max-width: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.book-details .info {
+  flex: 1;
+}
+
+.book-details p {
+  margin: 0.4em 0;
+  font-size: 0.95rem;
+}
+
+.book-details p strong {
+  color: #111;
+}
+
+.book-details button {
+  margin-top: 1.5em;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a63f2;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-details button:hover {
+  background-color: #3946b6;
+}
+
+.book-details .on-sale {
+  color: red;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.book-details .price-high {
+  color: red;
+}
+
+.book-details .price-low {
+  color: green;
+}
+
+.book-details .reading-level,
+.book-details .published-info {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 0.3em;
+  color: #666;
+}
+
+.book-details .nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5em;
+}
+
+.book-details .nav-links a button {
+  background-color: #ddd;
+  color: #222;
+}
+
+.book-details .nav-links a button:hover {
+  background-color: #bbb;
+}

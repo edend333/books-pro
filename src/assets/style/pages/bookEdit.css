@@ -1,0 +1,40 @@
+.book-edit {
+  max-width: 500px;
+  margin: auto;
+  padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.book-edit h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.book-edit form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.book-edit label {
+  font-weight: 500;
+  margin-bottom: 0.3em;
+  color: #333;
+}
+
+.book-edit input[type="text"],
+.book-edit input[type="number"] {
+  padding: 0.5em 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.book-edit .btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+}
